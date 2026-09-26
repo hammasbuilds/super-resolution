@@ -21,6 +21,7 @@ sit in a single comparable table.
 | Lanczos | 26.57 | 0.8538 | classical |
 | **MSRResNet (fine-tuned)** | **28.55** | 0.8945 | learned |
 | **MSRGAN (fine-tuned)** | **28.50** | 0.8938 | learned |
+| **Real-ESRGAN anime_6B (fine-tuned)** | **28.29** | 0.8905 | learned |
 
 **+2.17 dB over bicubic.** Classical interpolation is included as the reference because
 a learned model is only worth its weights if it beats what `Image.resize` gives for
