@@ -1,0 +1,44 @@
+{
+  "n_images": 50,
+  "scale": 4,
+  "device": "cuda",
+  "metric": "Y-channel PSNR/SSIM, 4px border",
+  "results": {
+    "bicubic": {
+      "psnr": 26.3809,
+      "ssim": 0.8468,
+      "sec_per_image": 0.0,
+      "vs_bicubic_db": 0.0
+    },
+    "MSRResNet": {
+      "psnr": 28.4226,
+      "ssim": 0.8931,
+      "sec_per_image": 0.1517,
+      "vs_bicubic_db": 2.0417
+    },
+    "MSRGAN (SRGAN)": {
+      "psnr": 26.6688,
+      "ssim": 0.8496,
+      "sec_per_image": 0.151,
+      "vs_bicubic_db": 0.2879
+    },
+    "Real-ESRGAN anime_6B": {
+      "psnr": 24.7189,
+      "ssim": 0.8079,
+      "sec_per_image": 0.1572,
+      "vs_bicubic_db": -1.662
+    },
+    "ESRGAN": {
+      "psnr": 26.8207,
+      "ssim": 0.8546,
+      "sec_per_image": 0.5413,
+      "vs_bicubic_db": 0.4399
+    },
+    "RealESRNet": {
+      "psnr": 27.4608,
+      "ssim": 0.8755,
+      "sec_per_image": 0.5456,
+      "vs_bicubic_db": 1.08
+    }
+  }
+}
