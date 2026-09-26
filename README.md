@@ -19,8 +19,8 @@ sit in a single comparable table.
 | Bilinear | 25.89 | 0.8272 | classical |
 | Bicubic | 26.38 | 0.8468 | classical (reference) |
 | Lanczos | 26.57 | 0.8538 | classical |
-| **MSRResNet (fine-tuned)** | **28.55** | **0.8945** | learned |
-| **MSRGAN (fine-tuned)** | **28.50** | 0.8923 | learned |
+| **msrresnet (fine-tuned)** | **28.55** | 0.8945 | learned |
+| **msrgan (fine-tuned)** | **28.50** | 0.8938 | learned |
 
 **+2.17 dB over bicubic.** Classical interpolation is included as the reference because
 a learned model is only worth its weights if it beats what `Image.resize` gives for
